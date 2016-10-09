@@ -1,0 +1,21 @@
+{
+  "name": "gsm-electron",
+  "version": "1.0.0",
+  "description": "Sistema de Gestão de Materiais",
+  "main": "index.js",
+  "dependencies": {
+    "electron": "^1.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start":"electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gsm",
+    "gestao",
+    "electron"
+  ],
+  "author": "Denis Castelo de Lima",
+  "license": "MIT"
+}
