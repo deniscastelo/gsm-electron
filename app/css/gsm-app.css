@@ -1,3 +1,22 @@
-#mdPesquisaPessoas {
-	max-height: 600px;
+#mdPesquisaPessoas .modal {
+    display: block !important; /* I added this to see the modal, you don't need this */
+}
+
+/* Important part */
+#mdPesquisaPessoas .modal-dialog {
+    overflow-y: initial !important;
+}
+
+#mdPesquisaPessoas .modal-body {
+    height: 400px;
+    overflow-y: auto;
+}
+
+.table-hover > tbody > tr:hover {
+	background-color: #B5DDFF; 
+}
+
+.table-hover > thead > tr {
+	background-color: #2C82C9;
+	color: #fff; 
 }
